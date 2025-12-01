@@ -1,0 +1,104 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+
+# Node.js / TypeScript / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+bower_components/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# C / C++ / Rust build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+target/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+*.pch
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.class
+hs_err_pid*
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Coverage / test artifacts
+.coverage
+coverage/
+htmlcov/
+pytest-cache/
+.cache/
+
+# Virtualization / containers
+.vagrant/
+*.box
+
+# Misc
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*.swn
+*.swn
