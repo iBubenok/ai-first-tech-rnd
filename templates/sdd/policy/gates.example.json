@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "gates": [
+    {
+      "id": "GATE_AR_APPROVE",
+      "title": "AR-Approve: требования валидны и измеримы",
+      "requires": [
+        "specs/AR-*.md",
+        "sot/CONSTITUTION.md",
+        "sot/QUALITY_BAR.md",
+        "policy/gates.json"
+      ],
+      "checks": [
+        "<validate-docs>",
+        "<review>"
+      ],
+      "produces": [
+        "reports/REP-GATE-AR-*.md"
+      ]
+    }
+  ]
+}
